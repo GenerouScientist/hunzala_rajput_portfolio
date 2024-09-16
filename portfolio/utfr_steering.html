@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Hunzala Rajput</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page" style="background-color: #000000;">
+
+  <header id="header" class="header-tops" style="font-family:M PLUS Code Latin,monospace;">
+    <div class="container">
+      <h1><a href="index.html">Hunzala Rajput</a></h1>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade" style="color: #fff;">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center" style="font-family:M PLUS Code Latin,monospace;">
+            <div class="col-lg-8">
+              <br></br>
+              <h1 style="font-weight: bold;" >Steering Systems Lead</h1>
+              <h3 class="mb-0">at</h3>
+              <h2 class="mb-0">University of Toronto Formula SAE Racing</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section" style="color: #fff;" >
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100" style="font-family:M PLUS Code Latin,monospace;">
+
+        <div class="row gy-12">
+
+          <div class="col-lg-12">
+            
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <div style="text-align: center;" >
+                <img width="600" src="assets\img\all\utfr_team.jpg" class="img-fluid" alt="">
+              </div>
+              <br></br>
+              <p>
+                As the Steering Systems Lead for the year 2023-2024, I spearheaded the design and implementation of UTFR's first fully autonomous Steering system.  
+
+                <br></br>
+
+                The overall objective of the system design was to:  
+                <ul>
+                  <li>Have fully autonomous capabilities</li>
+                  <li>Have responsive feedback</li>
+                  <li>Have minimum compliance in the system</li>
+                  <li>Have ease of assembly</li>
+                </ul>
+              </p>
+
+              <h4 style="font-weight: bold;">Autonomous capabilities</h4>
+              <p>For the system to have a closed-loop feedback, a robtic BLDC equipped with a Hall effect sensor was coupled with a Steering Angle Sensor to relay information back and forth from the car computer to the motor. To read more about the autonomous system, click <a href="utfr_sbw.html"> here</a></p>
+              <div style="text-align: center;" >
+                <div class="row">
+                  <div class="col-lg-7 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0 0;padding-bottom:5px;display:inline-block;"> 
+                    <img width="800" src="assets\img\all\st24_sbw_zoom.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:20px 20px;padding-bottom:5px;display:inline-block;"> 
+                    <img  src="assets\img\all\sbw_real.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <h4 style="font-weight: bold;">Suspension redesign</h4>
+              <p>For a better responsive driver feedback, the steering system should require minimum torque to steer (aorund 5-12 Nm for racecars without power steering). Since past years required around 29Nm to steer the wheel, redesigning the front suspension geometry was required to accomodoate the new tie rod outboard points.
+                <br></br>
+                <br>
+                This was achieved by simulating the geometry in a suspension design software Susprog3D and using those results, tire data, aero data from StarCCM, and track data from OptimumLap to plot a dynamic steering torque curve across a track in MATLAB. I was able to successfully decrease the average torque required by the driver from 21Nm to 10Nm. 
+                </br>
+              </p>
+              <div>
+                <div class="row">
+                  <div class="col-lg-7 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0 0;padding-bottom:5px;display:inline-block;"> 
+                    <img width="800" src="assets\img\all\susprog.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-5 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:20px 20px;padding-bottom:5px;display:inline-block;"> 
+                    <img width="600" src="assets\img\all\st-torque.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <h4 style="font-weight: bold;">System freeplay</h4>
+              <p>FSAE rules require a mzimumm of 7deg freeplay in the steering system. To minimize the freeplay in the system, a vertical bearing holder mounting was designed to keep the lateral movement to a minimum. This decreased the freeplay from 6.5deg in the past years to a maximum of 1.5deg</p>
+              <div class="row">
+                <div class="col-lg-7 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0 0;padding-bottom:5px;display:inline-block;"> 
+                  <img width="800" src="assets\img\all\st24_bearing.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-5 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:20px 20px;padding-bottom:5px;display:inline-block;"> 
+                  <img width="600" src="assets\img\all\st24_bearing_real.png" class="img-fluid" alt="">
+                </div>
+              </div>
+
+              <h4 style="font-weight: bold;">Manufacturing</h4>
+              <p>A major part of the process is manufacturing. Different parts of the steering system were manufactued using either mill, lathe, waterjetting, etc. Therefore, it was very important to consider the manufacturing and ease of assembly in the initial design stages. </p>
+              <div>
+                <div class="row">
+                  <div class="col-lg-7 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:10 10;padding-bottom:5px;display:inline-block;"> 
+                    <img width="800" src="assets\img\all\manufacturing1.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:10 10 ;padding-bottom:5px;display:inline-block;"> 
+                    <img width="600" src="assets\img\all\manufacturing2.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <br></br>
+              <br></br>
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    
+    <!-- /Portfolio Details Section -->
+
+  </main>
+
+
+</body>
+
+</html>
+
+
